@@ -1,0 +1,32 @@
+name: Bug report / Ошибка
+description: Report a reproducible problem with reviews, installation, or rollback.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: "Share a minimal reproduction. Remove personal paths, credentials, transcripts, and private journal contents."
+  - type: input
+    id: environment
+    attributes:
+      label: Execution host and versions
+      placeholder: "WSL Ubuntu; Codex 0.x; Python 3.x; AAR 0.x"
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: What did you do, and what happened?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Sanitized diagnostics
+      description: Include only the details needed to reproduce the problem.

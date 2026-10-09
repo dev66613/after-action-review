@@ -1,0 +1,99 @@
+{
+  "description": "Bounded AAR events; no permission decisions or tool rewrites.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${PLUGIN_ROOT}/hooks/handler.py\"",
+            "commandWindows": "python \"${PLUGIN_ROOT}/scripts/windows_bridge.py\" hook",
+            "timeout": 10,
+            "statusMessage": "After Action Review",
+            "additionalContextLimit": 1800
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${PLUGIN_ROOT}/hooks/handler.py\"",
+            "commandWindows": "python \"${PLUGIN_ROOT}/scripts/windows_bridge.py\" hook",
+            "timeout": 10,
+            "statusMessage": "After Action Review",
+            "additionalContextLimit": 1800
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${PLUGIN_ROOT}/hooks/handler.py\"",
+            "commandWindows": "python \"${PLUGIN_ROOT}/scripts/windows_bridge.py\" hook",
+            "timeout": 10,
+            "statusMessage": "After Action Review",
+            "additionalContextLimit": 1800
+          }
+        ]
+      }
+    ],
+    "PreCompact": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${PLUGIN_ROOT}/hooks/handler.py\"",
+            "commandWindows": "python \"${PLUGIN_ROOT}/scripts/windows_bridge.py\" hook",
+            "timeout": 10,
+            "statusMessage": "After Action Review"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${PLUGIN_ROOT}/hooks/handler.py\"",
+            "commandWindows": "python \"${PLUGIN_ROOT}/scripts/windows_bridge.py\" hook",
+            "timeout": 10,
+            "statusMessage": "After Action Review"
+          }
+        ]
+      }
+    ],
+    "Interrupt": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${PLUGIN_ROOT}/hooks/handler.py\"",
+            "commandWindows": "python \"${PLUGIN_ROOT}/scripts/windows_bridge.py\" hook",
+            "timeout": 3,
+            "statusMessage": "After Action Review"
+          }
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${PLUGIN_ROOT}/hooks/handler.py\"",
+            "commandWindows": "python \"${PLUGIN_ROOT}/scripts/windows_bridge.py\" hook",
+            "timeout": 3,
+            "statusMessage": "After Action Review"
+          }
+        ]
+      }
+    ]
+  }
+}

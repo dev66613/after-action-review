@@ -1,0 +1,16 @@
+name: Improvement / Улучшение
+description: Suggest a concrete workflow or plugin improvement.
+title: "[Idea]: "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem and desired outcome
+      description: Describe an actual workflow problem and what should improve.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+      description: Include any trade-offs, evidence, and rollback expectations.

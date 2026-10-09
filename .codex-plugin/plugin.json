@@ -1,0 +1,26 @@
+{
+  "name": "after-action-review",
+  "version": "0.1.2",
+  "description": "Event-driven After Action Review with scoped improvements, evidence, feedback, journal and rollback.",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "hooks": "./hooks/hooks.json",
+  "interface": {
+    "displayName": "After Action Review",
+    "shortDescription": "Review, improve, undo",
+    "longDescription": "Automatic evidence-based reviews at task boundaries, repeated failures, feedback and long sessions; scoped reversible improvements, journal and rollback. Requires native hook trust.",
+    "developerName": "dev66613",
+    "logo": "./assets/icon.png",
+    "composerIcon": "./assets/icon.png",
+    "websiteURL": "https://github.com/dev66613/after-action-review",
+    "supportURL": "https://github.com/dev66613/after-action-review/issues",
+    "privacyPolicyURL": "https://github.com/dev66613/after-action-review/blob/main/docs/privacy.md",
+    "termsOfServiceURL": "https://github.com/dev66613/after-action-review/blob/main/LICENSE",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": "Настрой автоматический After Action Review с журналом и откатом."
+  }
+}

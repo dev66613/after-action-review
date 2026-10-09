@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "after_action_review": {
+      "type": "stdio",
+      "command": "python",
+      "cwd": "./",
+      "args": [
+        "scripts/aar.py",
+        "mcp"
+      ]
+    }
+  }
+}

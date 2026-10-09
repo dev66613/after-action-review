@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "after_action_review": {
+      "type": "stdio",
+      "command": "python",
+      "cwd": "./",
+      "args": [
+        "scripts/aar.py",
+        "mcp"
+      ]
+    }
+  },
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json"
+}

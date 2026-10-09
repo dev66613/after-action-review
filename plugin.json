@@ -1,0 +1,45 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "after-action-review",
+  "version": "0.1.2",
+  "description": "Event-driven After Action Review with scoped improvements, evidence, feedback, journal and rollback.",
+  "author": {
+    "name": "dev66613",
+    "url": "https://github.com/dev66613"
+  },
+  "homepage": "https://github.com/dev66613/after-action-review",
+  "repository": "https://github.com/dev66613/after-action-review",
+  "license": "MIT",
+  "keywords": [
+    "after-action-review",
+    "workflow",
+    "rollback",
+    "codex",
+    "mcp",
+    "continuous-improvement"
+  ],
+  "extensions": {
+    "com.openai": {
+      "hooks": "./hooks/hooks.json",
+      "onboardingSkill": "./skills/setup/SKILL.md",
+      "interface": {
+        "displayName": "After Action Review",
+        "shortDescription": "Review, improve, undo",
+        "longDescription": "Automatic evidence-based reviews at task boundaries, repeated failures, feedback and long sessions; scoped reversible improvements, journal and rollback. Requires native hook trust.",
+        "developerName": "dev66613",
+        "logo": "./assets/icon.png",
+        "composerIcon": "./assets/icon.png",
+        "websiteURL": "https://github.com/dev66613/after-action-review",
+        "supportURL": "https://github.com/dev66613/after-action-review/issues",
+        "privacyPolicyURL": "https://github.com/dev66613/after-action-review/blob/main/docs/privacy.md",
+        "termsOfServiceURL": "https://github.com/dev66613/after-action-review/blob/main/LICENSE",
+        "category": "Productivity",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "defaultPrompt": "Настрой автоматический After Action Review с журналом и откатом."
+      }
+    }
+  }
+}
