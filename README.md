@@ -4,13 +4,13 @@
   <p><strong>Review the work. Keep the lesson. Improve the next task.</strong></p>
   <p>A local Codex plugin for evidence-based reviews, reversible improvements, and user feedback.</p>
   <p>
-    <a href="https://github.com/dev66613/after-action-review/releases"><img src="https://img.shields.io/github/v/release/dev66613/after-action-review?color=16836B&amp;style=flat-square" alt="Latest release" /></a>
+    <a href="plugin.json"><img src="https://img.shields.io/badge/version-0.1.2-16836B?style=flat-square" alt="Version 0.1.2" /></a>
     <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-16836B?style=flat-square" alt="MIT license" /></a>
     <img src="https://img.shields.io/badge/Python-3.11%2B-14385B?style=flat-square" alt="Python 3.11 or newer" />
     <img src="https://img.shields.io/badge/runtime-standard_library-14385B?style=flat-square" alt="Standard library runtime" />
   </p>
   <p><strong>English</strong> · <a href="README.ru.md">Русский</a></p>
-  <p><a href="#quick-start">Install</a> · <a href="docs/architecture.md">How it works</a> · <a href="docs/privacy.md">Local data</a> · <a href="https://github.com/dev66613/after-action-review/releases">Downloads</a></p>
+  <p><a href="#quick-start">Install</a> · <a href="docs/architecture.md">How it works</a> · <a href="docs/privacy.md">Local data</a> · <a href="https://github.com/dev66613/after-action-review/archive/refs/heads/main.zip">Download source</a></p>
 </div>
 
 ---
