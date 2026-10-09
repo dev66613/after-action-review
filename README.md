@@ -114,8 +114,6 @@ for transaction and recovery details.
 
 > Add this owned skills directory to the improvement scope: `<absolute path>`.
 
-Russian requests work too; see [the Russian guide](README.ru.md).
-
 ## Tools and controls
 
 | MCP tool | Purpose |
