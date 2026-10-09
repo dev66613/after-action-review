@@ -4,12 +4,12 @@
   <p><strong>Разобрать результат. Сохранить урок. Улучшить следующую задачу.</strong></p>
   <p>Локальный плагин Codex: проверенные выводы, обратимые улучшения и обратная связь.</p>
   <p>
-    <a href="https://github.com/dev66613/after-action-review/releases"><img src="https://img.shields.io/github/v/release/dev66613/after-action-review?color=16836B&amp;style=flat-square" alt="Последняя версия" /></a>
+    <a href="plugin.json"><img src="https://img.shields.io/badge/version-0.1.2-16836B?style=flat-square" alt="Версия 0.1.2" /></a>
     <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-16836B?style=flat-square" alt="Лицензия MIT" /></a>
     <img src="https://img.shields.io/badge/Python-3.11%2B-14385B?style=flat-square" alt="Python 3.11 или новее" />
   </p>
   <p><a href="README.md">English</a> · <strong>Русский</strong></p>
-  <p><a href="#установка">Установка</a> · <a href="docs/architecture.md">Схема работы</a> · <a href="docs/privacy.md">Локальные данные</a> · <a href="https://github.com/dev66613/after-action-review/releases">Скачать</a></p>
+  <p><a href="#установка">Установка</a> · <a href="docs/architecture.md">Схема работы</a> · <a href="docs/privacy.md">Локальные данные</a> · <a href="https://github.com/dev66613/after-action-review/archive/refs/heads/main.zip">Скачать исходник</a></p>
 </div>
 
 ---
